@@ -357,4 +357,4 @@ c.hide();this.setState();b.hoverSeries=null},setState:function(a){var b=this.opt
 a;if(this.checkbox)this.checkbox.checked=a;G(this,a?"select":"unselect")},drawTracker:Q.drawTrackerGraph});q(y,{Color:na,Point:Ga,Tick:Ta,Renderer:$a,SVGElement:L,SVGRenderer:ta,arrayMin:Pa,arrayMax:Fa,charts:X,dateFormat:Oa,error:ka,format:Ja,pathAnim:zb,getOptions:function(){return S},hasBidiBug:Lb,isTouchDevice:Hb,setOptions:function(a){S=z(!0,S,a);Cb();return S},addEvent:K,removeEvent:Y,createElement:Z,discardElement:Ra,css:J,each:m,map:Ua,merge:z,splat:ra,extendClass:ja,pInt:C,svg:ba,canvas:ea,
 vml:!ba&&!ea,product:"Highcharts",version:"4.1.4"})})();
 
-//# sourceMappingURL=all.js.map
+//# sourceMappingURL=app.js.map

@@ -13,17 +13,17 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.styles(
-        'bootstrap.min.css'
-    );
+        'bootstrap.min.css',
+    'public/css/app.css');
 
     mix.scripts([
         'bootstrap.min.js',
         'e-rapor.js',
         'highcharts.js'
-    ]);
+    ], 'public/js/app.js');
 
     mix.version([
-        'public/css/all.css',
-        'public/js/all.js'
+        'public/css/app.css',
+        'public/js/app.js'
     ]);
 });
