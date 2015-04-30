@@ -23,9 +23,8 @@
 
     <script src="//code.jquery.com/jquery.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/e-rapor.js"></script>
+    <script src="/bootstrap/js/highcharts.js"></script>
 
-    <script>
-        $('div.alert').delay(3000).fadeOut(300);
-    </script>
 </body>
 </html>
