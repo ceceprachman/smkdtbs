@@ -12,5 +12,18 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.less('app.less');
+    mix.styles(
+        'bootstrap.min.css'
+    );
+
+    mix.scripts([
+        'bootstrap.min.js',
+        'e-rapor.js',
+        'highcharts.js'
+    ]);
+
+    mix.version([
+        'public/css/all.css',
+        'public/js/all.js'
+    ]);
 });

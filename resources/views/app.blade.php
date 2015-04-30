@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>e-Rapor</title>
 
-	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{elixir('css/all.css')}}" rel="stylesheet">
 
 	<style>
 	    body { padding-top: 70px; }
@@ -22,9 +22,7 @@
 
 
     <script src="//code.jquery.com/jquery.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="/bootstrap/js/e-rapor.js"></script>
-    <script src="/bootstrap/js/highcharts.js"></script>
+    <script src="{{elixir('js/all.js')}}"></script>
 
 </body>
 </html>
