@@ -14,7 +14,7 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.styles(
         'bootstrap.min.css',
-    'public/css/app.css');
+        'public/css/app.css');
 
     mix.scripts([
         'bootstrap.min.js',
