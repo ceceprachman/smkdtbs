@@ -33,6 +33,13 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
+        //Check if the user name is empty
+        //if empty, will redirected to fill his/her profile
+        if(Auth::User()->name == null){
+            return 'isi profile';
+        }
+
+        //Check the user role
         if(Auth::User()->role == 1) {
             return redirect()->route('admin.index');
         }
