@@ -22,7 +22,7 @@
       @for($i = 0; $i < count($users); $i++)
         <tr>
           <th>{{$i+1}}</th>
-          <td>{!!link_to_route('admin.show', $users[$i]->name, ['id' => $users[$i]->id], ['class' => 'text-capitalize'])!!}</td>
+          <td>{!!link_to_route('admin.show', $users[$i]->name, ['id' => $users[$i]->username], ['class' => 'text-capitalize'])!!}</td>
           <td>{{$users[$i]->username}}</td>
           <td>
           {{--{{$users[$i]->role}}--}}

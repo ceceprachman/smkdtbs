@@ -2,7 +2,7 @@
 
 @section('main')
 
-    {!!Form::model($user, ['route' => ['admin.update', $user->id], 'method' => 'PATCH'])!!}
+    {!!Form::model($user, ['route' => ['admin.update', $user->username], 'method' => 'PATCH'])!!}
         {!!Form::text('username', null, ['class' => 'form-control', 'placeholder' => 'Username'])!!}
         {!!Form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Name'])!!}
         {!!Form::text('email', null, ['class' => 'form-control', 'placeholder' => 'Email Address'])!!}

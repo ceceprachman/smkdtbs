@@ -87,9 +87,9 @@ class AdminController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	public function show($username)
 	{
-        $user = $this->user->find($id);
+        $user = $this->user->find($username);
 		return view('admin.show')->with('user', $user);
 	}
 
@@ -99,9 +99,9 @@ class AdminController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit($id)
+	public function edit($username)
 	{
-		$user = $this->user->find($id);
+		$user = $this->user->find($username);
         return view('admin.edit')->with('user', $user);
 	}
 
@@ -111,9 +111,9 @@ class AdminController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id, Request $request)
+	public function update($username, Request $request)
 	{
-        $user = $this->user->find($id);
+        $user = $this->user->find($username);
 
         $user->fill([
             'username' => $request->get('username'),
@@ -130,9 +130,9 @@ class AdminController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+	public function destroy($username)
 	{
-		$this->user->whereId($id)->delete();
+		$this->user->whereUsername($username)->delete();
         flash()->success('Delete User !!');
         return redirect()->route('admin.all');
 	}

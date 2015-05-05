@@ -20,7 +20,7 @@
 
             </div>
             <div class="modal-footer">
-                {!!Form::open(['method' => 'DELETE', 'route' => ['admin.destroy', $user->id]])!!}
+                {!!Form::open(['method' => 'DELETE', 'route' => ['admin.destroy', $user->username]])!!}
                 {!!Form::submit('Delete', ['class' => 'btn btn-danger'])!!}
                 {!!Form::close()!!}
             </div>
@@ -28,7 +28,7 @@
         </div><!-- /.modal-dialog -->
       </div>
 
-    {!!link_to_route('admin.edit', 'Edit '.$user->name, ['id' => $user->id])!!}
+    {!!link_to_route('admin.edit', 'Edit '.$user->name, ['username' => $user->username])!!}
 
 
 

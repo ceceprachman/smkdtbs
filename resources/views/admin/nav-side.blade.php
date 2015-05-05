@@ -43,7 +43,7 @@
                             </div>
                         </div>
                     </li>
-                    <li><a href="{{route('admin.show', ['id' => Auth::User()->id])}}"><span class="glyphicon glyphicon-dashboard"></span> Profile</a></li>
+                    <li><a href="{{route('admin.show', ['username' => Auth::User()->username])}}"><span class="glyphicon glyphicon-dashboard"></span> Profile</a></li>
                     <li><a href="{{url('auth/logout')}}"><span class="glyphicon glyphicon-off"></span> Logout</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
