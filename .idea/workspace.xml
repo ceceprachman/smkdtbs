@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16bf7e24-0c5c-4fa8-84ce-a5134af42be5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\e-rapor\public\build\css\all-e76864c0.css" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\e-rapor\public\build\css\all.css.map" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\e-rapor\public\build\css\app-567fd5de.css" afterPath="" />
@@ -9,9 +10,12 @@
       <change type="DELETED" beforePath="D:\xampp\htdocs\e-rapor\public\build\js\all.js.map" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\e-rapor\public\build\js\app-7ab2a738.js" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\e-rapor\public\build\js\app-8f23bbc8.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/users/all.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/users/all.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="e-rapor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7885196" vertical-offset="626" max-vertical-offset="1792">
-              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            <state vertical-scroll-proportion="1.2265861" vertical-offset="0" max-vertical-offset="1036">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -130,15 +134,16 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/nav-side.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/users/all.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
       </list>
     </option>
   </component>
@@ -627,14 +632,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
+    <property name="options.splitter.main.proportions" value="0.2108014" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistoryKey" value="primaryKey&#9;null&#9;null&#10;file template&#9;ACTION&#9;SaveFileAsTemplate&#10;file templa&#9;null&#9;null&#10;hi&#9;FILE&#9;file://D:/xampp/htdocs/e-rapor/public/bootstrap/js/highcharts.js&#10;flash/&#9;FILE&#9;file://D:/xampp/htdocs/e-rapor/vendor/laracasts/flash/src/Laracasts/Flash&#10;flash/mes&#9;FILE&#9;file://D:/xampp/htdocs/e-rapor/vendor/laracasts/flash/src/views/message.blade.php&#10;flash/mo&#9;FILE&#9;file://D:/xampp/htdocs/e-rapor/vendor/laracasts/flash/src/views/modal.blade.php&#10;link_to_route&#9;null&#9;null&#10;foreach&#9;null&#9;null&#10;button&#9;null&#9;null&#10;hidden&#9;null&#9;null&#10;select&#9;null&#9;null&#10;required&#9;null&#9;null&#10;unique&#9;null&#9;null&#10;text&#9;null&#9;null&#10;link_to_&#9;null&#9;null&#10;open&#9;null&#9;null" />
     <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
@@ -772,13 +778,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/html/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3462185" vertical-offset="593" max-vertical-offset="1275">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5" vertical-offset="340" max-vertical-offset="935">
@@ -1138,20 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7054381" vertical-offset="345" max-vertical-offset="1036">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <marker date="1430829454421" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1430829454421" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430829454421" expanded="true" signature="-1:-1" placeholder=" The database table used by the model. ..." />
-            <marker date="1430829454421" expanded="true" signature="-1:-1" placeholder=" The attributes that are mass assignable. ..." />
-            <marker date="1430829454421" expanded="true" signature="-1:-1" placeholder=" The attributes excluded from the model's JSON form. ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/nav-side.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.0708783" vertical-offset="0" max-vertical-offset="1624">
@@ -1185,40 +1170,6 @@
             <marker date="1430478196676" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1430478196676" expanded="false" signature="-1:-1" placeholder="..." />
             <marker date="1430478196676" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74622357" vertical-offset="3146" max-vertical-offset="3976">
-          <caret line="134" column="27" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
-          <folding>
-            <marker date="1430830148489" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
-            <marker date="1430830148489" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1287,18 +1238,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.057401814" vertical-offset="234" max-vertical-offset="896">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
+        <state vertical-scroll-proportion="-1.8187311" vertical-offset="2408" max-vertical-offset="4844">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" @param User $user ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" @return \Illuminate\View\View ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" @return view to all users collection ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" @return view  to student collection ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1430838079268" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7885196" vertical-offset="626" max-vertical-offset="1792">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        <state vertical-scroll-proportion="-0.6495468" vertical-offset="682" max-vertical-offset="1848">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder=" Create a new controller instance. ..." />
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder=" Show the application dashboard to the user. ..." />
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1430838079278" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1430838079292" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079292" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2960725" vertical-offset="0" max-vertical-offset="896">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <marker date="1430838079285" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430838079285" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2265861" vertical-offset="0" max-vertical-offset="1036">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding />
         </state>
       </provider>

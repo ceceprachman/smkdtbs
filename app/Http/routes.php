@@ -14,23 +14,23 @@
 get('/', 'HomeController@index');
 
 Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
+    'auth'     => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController',
 ]);
 
 resource('admin', 'AdminController');
 
 get('all-users', [
-    'as' => 'admin.all',
+    'as'   => 'admin.all',
     'uses' => 'AdminController@all'
 ]);
 
 get('operators', [
-    'as' => 'admin.operators',
+    'as'   => 'admin.operators',
     'uses' => 'AdminController@operators'
 ]);
 
 get('teachers', [
-    'as' => 'admin.teachers',
+    'as'   => 'admin.teachers',
     'uses' => 'AdminController@teachers'
 ]);
