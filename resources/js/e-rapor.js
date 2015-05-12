@@ -20,7 +20,7 @@ $(function () {
         series: [{
             data: [{
                 name: 'Administrator',
-                y   : 1
+                y   : 2
             },{
                 name: 'Operator',
                 y   : 3
@@ -37,3 +37,7 @@ $(function () {
         }]
     });
 });
+
+$(document).ready( function () {
+    $('#table').DataTable();
+} );

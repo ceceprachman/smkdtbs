@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7f3faa713a1ee27f918cfcf043cb667f",
+    "hash": "98fa04a1c5edb0640057238787c5ad2a",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -720,6 +720,50 @@
             "time": "2015-02-01 20:07:15"
         },
         {
+            "name": "laracasts/utilities",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laracasts/PHP-Vars-To-Js-Transformer.git",
+                "reference": "fb96d2de843086af87b175c890d75561da66d393"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laracasts/PHP-Vars-To-Js-Transformer/zipball/fb96d2de843086af87b175c890d75561da66d393",
+                "reference": "fb96d2de843086af87b175c890d75561da66d393",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Laracasts\\Utilities\\JavaScript\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@laracasts.com"
+                }
+            ],
+            "description": "Transform your PHP to JavaScript",
+            "keywords": [
+                "javascript",
+                "laravel"
+            ],
+            "time": "2015-02-06 17:35:14"
+        },
+        {
             "name": "laravel/framework",
             "version": "v5.0.28",
             "source": {
@@ -1338,6 +1382,53 @@
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
             "time": "2014-12-30 13:32:42"
+        },
+        {
+            "name": "spatie/laravel-tail",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/freekmurze/laravel-tail.git",
+                "reference": "57b8f323d215a0f73ce542e46a50192bd0d1f304"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/freekmurze/laravel-tail/zipball/57b8f323d215a0f73ce542e46a50192bd0d1f304",
+                "reference": "57b8f323d215a0f73ce542e46a50192bd0d1f304",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Tail\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://murze.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The missing tail command for Laravel 5",
+            "homepage": "https://github.com/freekmurze/laravel-tail",
+            "keywords": [
+                "laravel 5",
+                "laravel-tail",
+                "log",
+                "tail"
+            ],
+            "time": "2015-03-09 20:45:12"
         },
         {
             "name": "swiftmailer/swiftmailer",

@@ -29,6 +29,7 @@ class AdminController extends Controller {
         $this->user = $user;
         $this->middleware('auth');
     }
+
     /**
      * @return \Illuminate\View\View
      *

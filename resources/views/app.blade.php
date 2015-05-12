@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>e-Rapor</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/jquery.dataTables.css" rel="stylesheet">
+{{--    <link href="{{elixir('css/app.css')}}" rel="stylesheet">--}}
     <style>body { padding-top: 70px; }</style>
 </head>
 <body>
@@ -14,5 +16,6 @@
 
     <script src="//code.jquery.com/jquery.js"></script>
     <script src="{{elixir('js/app.js')}}"></script>
+
 </body>
 </html>

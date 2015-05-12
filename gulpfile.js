@@ -12,13 +12,14 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.styles('bootstrap.css',
+    mix.styles('jquery.dataTables.css',
     'public/css/app.css');
 
     mix.scripts([
         'bootstrap.min.js',
         'e-rapor.js',
-        'highcharts.js'
+        'highcharts.js',
+        'jquery.dataTables.js'
     ], 'public/js/app.js');
 
     mix.version([
