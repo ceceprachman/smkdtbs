@@ -12,7 +12,7 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.styles('jquery.dataTables.css',
+    mix.styles('bootstrap.css',
     'public/css/app.css');
 
     mix.scripts([

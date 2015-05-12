@@ -19,6 +19,7 @@
                 Delete {{$user->name}} ??
 
             </div>
+
             <div class="modal-footer">
                 {!!Form::open(['method' => 'DELETE', 'route' => ['admin.destroy', $user->username]])!!}
                 {!!Form::submit('Delete', ['class' => 'btn btn-danger'])!!}
