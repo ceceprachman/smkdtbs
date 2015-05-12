@@ -18,8 +18,7 @@ elixir(function(mix) {
     mix.scripts([
         'bootstrap.min.js',
         'e-rapor.js',
-        'highcharts.js',
-        'jquery.dataTables.js'
+        'highcharts.js'
     ], 'public/js/app.js');
 
     mix.version([

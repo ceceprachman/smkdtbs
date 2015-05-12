@@ -5,7 +5,7 @@
     @include('flash::message')
     <a href="{{route('admin.all')}}">All Users
     <span class="badge" style="margin-bottom: 10px">{{$users->total()}}</span></a>
-    <table id="table" class="table table-striped table-bordered table-condensed">
+    <table id="table" class="table table-striped table-bordered" cellspacing="0" width="100%">
       <thead>
         <tr>
           <th>No</th>
@@ -18,6 +18,7 @@
           <th>Action</th>
         </tr>
       </thead>
+
       <tbody>
       @for($i = 0; $i < count($users); $i++)
         <tr>

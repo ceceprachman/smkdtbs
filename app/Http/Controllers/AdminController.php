@@ -22,10 +22,10 @@ class AdminController extends Controller {
      */
     public function __construct(User $user)
     {
-        $this->users = $user->paginate(4);
-        $this->operators = $user->whereRole(2)->paginate(15);
-        $this->teachers = $user->whereRole(4)->paginate(15);
-        $this->students = $user->whereRole(5)->paginate(15);
+        $this->users = $user->paginate();
+        $this->operators = $user->whereRole(2)->paginate();
+        $this->teachers = $user->whereRole(4)->paginate();
+        $this->students = $user->whereRole(5)->paginate();
         $this->user = $user;
         $this->middleware('auth');
     }
