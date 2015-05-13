@@ -2,8 +2,12 @@
 
 @section('main')
     <div class="container">
-        <h3>Registration</h3>
-        <hr>
+        <ol class="breadcrumb">
+            <li><a href="{{route('admin.index')}}">Dashboard</a></li>
+            <li><a href="{{route('admin.all')}}">User</a></li>
+            <li class="active">Create</li>
+        </ol>
+        <legend>Registration</legend>
         <div class="row">
             <div class="col-lg-6">
                 {!!Form::open(['route' => 'admin.store'])!!}

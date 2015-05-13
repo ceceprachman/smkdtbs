@@ -1,6 +1,11 @@
 @extends('admin.default')
 
 @section('main')
+    <ol class="breadcrumb">
+        <li><a href="{{route('admin.index')}}">Dashboard</a></li>
+        <li class="active">User</li>
+    </ol>
+
 <legend>Daftar User</legend>
     @include('flash::message')
     <a href="#">Total Users <span class="badge" style="margin-bottom: 10px">{{$users->total()}}</span></a>
