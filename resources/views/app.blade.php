@@ -7,14 +7,15 @@
 	<title>e-Rapor</title>
     <link href="{{asset('/css/bootstrap.css')}}" rel="stylesheet">
     <link href="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
-    {{--<link href="{{elixir('css/app.css')}}" rel="stylesheet">--}}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="{{elixir('css/app.css')}}" rel="stylesheet">
     <style>body { padding-top: 70px; }</style>
 </head>
 <body>
     @include('part.navbar')
     @yield('content')
 
-    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="{{asset('/js/jquery.js')}}"></script>
     <script src="{{elixir('js/app.js')}}"></script>
     <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
     <script src="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.js"></script>

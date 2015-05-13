@@ -3,8 +3,10 @@
 @section('main')
 <legend>Daftar User</legend>
     @include('flash::message')
-    <a href="{{route('admin.all')}}">All Users
-    <span class="badge" style="margin-bottom: 10px">{{$users->total()}}</span></a>
+    <a href="#">Total Users <span class="badge" style="margin-bottom: 10px">{{$users->total()}}</span></a>
+    <a href="#">Operators <span class="badge" style="margin-bottom: 10px">{{$operators->total()}}</span></a>
+    <a href="#">Teachers <span class="badge" style="margin-bottom: 10px">{{$teachers->total()}}</span></a>
+    <a href="#">Students <span class="badge" style="margin-bottom: 10px">{{$students->total()}}</span></a>
     <table id="table" class="table table-striped table-bordered table-condensed">
       <thead>
         <tr>

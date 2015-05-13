@@ -8,20 +8,20 @@
 			<!-- Main Menu -->
 			<div class="side-menu-container">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="{{route('admin.index')}}"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
+					<li class="active"><a href="{{route('admin.index')}}"><span class="fa fa-tachometer"></span> Dashboard</a></li>
 					<!-- Dropdown-->
 					<li class="panel panel-default" id="dropdown">
 						<a data-toggle="collapse" href="#dropdown-lvl1">
-							<span class="glyphicon glyphicon-user"></span> Administrator <span class="caret"></span>
+							<span class="fa fa-user"></span> Data User <span class="caret"></span>
 						</a>
 						<!-- Dropdown level 1 -->
 						<div id="dropdown-lvl1" class="panel-collapse collapse">
 							<div class="panel-body">
 								<ul class="nav navbar-nav">
-									<li><a href="{{route('admin.all')}}">All Users <span class="badge">{{$users->total()}}</span></a></li>
-									<li><a href="{{route('admin.operators')}}">Operators <span class="badge">{{$operators->total()}}</span></a></li>
-									<li><a href="{{route('admin.teachers')}}">Teachers <span class="badge">{{$teachers->total()}}</span></a></li>
-									<li><a href="#">Students <span class="badge">{{$students->total()}}</span></a></li>
+									<li><a href="{{route('admin.all')}}"><span class="fa fa-users"></span> All Users <span class="badge">{{$users->total()}}</span></a></li>
+									<li><a href="{{route('admin.operators')}}"><span class="fa fa-desktop"></span> Operators <span class="badge">{{$operators->total()}}</span></a></li>
+									<li><a href="{{route('admin.teachers')}}"><span class="fa fa-briefcase"></span> Teachers <span class="badge">{{$teachers->total()}}</span></a></li>
+									<li><a href="#"><span class="fa fa-graduation-cap"></span> Students <span class="badge">{{$students->total()}}</span></a></li>
 								</ul>
 							</div>
 						</div>
@@ -29,7 +29,7 @@
 					<!-- Dropdown-->
                     <li class="panel panel-default" id="dropdown">
                         <a data-toggle="collapse" href="#dropdown-statistic">
-                            <span class="glyphicon glyphicon-signal"></span> Statistic <span class="caret"></span>
+                            <span class="fa fa-bar-chart"></span> Statistic <span class="caret"></span>
                         </a>
 
                         <!-- Dropdown level 1 -->

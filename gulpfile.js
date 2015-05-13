@@ -12,7 +12,7 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.styles('bootstrap.css',
+    mix.styles('e-rapor.css',
     'public/css/app.css');
 
     mix.scripts([

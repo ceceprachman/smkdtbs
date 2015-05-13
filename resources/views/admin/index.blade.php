@@ -6,5 +6,6 @@
         <li class="active">Dashboard</li>
     </ol>
     @include('flash::message')
+    @include('admin.info')
     <div id="chart" style="width:100%; height:400px;"></div>
 @endsection
