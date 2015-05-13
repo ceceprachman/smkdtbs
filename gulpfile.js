@@ -12,8 +12,10 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.styles('e-rapor.css',
-    'public/css/app.css');
+    mix.styles([
+        'e-rapor.css',
+        'sb-admin-2.css'
+    ], 'public/css/app.css');
 
     mix.scripts([
         'bootstrap.min.js',

@@ -6,7 +6,7 @@
                     <i class="fa fa-check-circle fa-5x"></i>
                 </div>
                 <div class="col-xs-9 text-right">
-                    <div class="fa-3x">1</div>
+                    <div class="huge">1</div>
                     <div>Hadir</div>
                 </div>
             </div>

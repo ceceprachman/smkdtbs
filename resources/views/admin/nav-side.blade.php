@@ -21,7 +21,7 @@
 									<li><a href="{{route('admin.all')}}"><span class="fa fa-users"></span> All Users <span class="badge">{{$users->total()}}</span></a></li>
 									<li><a href="{{route('admin.operators')}}"><span class="fa fa-desktop"></span> Operators <span class="badge">{{$operators->total()}}</span></a></li>
 									<li><a href="{{route('admin.teachers')}}"><span class="fa fa-briefcase"></span> Teachers <span class="badge">{{$teachers->total()}}</span></a></li>
-									<li><a href="#"><span class="fa fa-graduation-cap"></span> Students <span class="badge">{{$students->total()}}</span></a></li>
+									<li><a href="{{route('admin.student')}}"><span class="fa fa-graduation-cap"></span> Students <span class="badge">{{$students->total()}}</span></a></li>
 								</ul>
 							</div>
 						</div>

@@ -8,10 +8,7 @@
 
 <legend>Daftar User</legend>
     @include('flash::message')
-    <a href="#">Total Users <span class="badge" style="margin-bottom: 10px">{{$users->total()}}</span></a>
-    <a href="#">Operators <span class="badge" style="margin-bottom: 10px">{{$operators->total()}}</span></a>
-    <a href="#">Teachers <span class="badge" style="margin-bottom: 10px">{{$teachers->total()}}</span></a>
-    <a href="#">Students <span class="badge" style="margin-bottom: 10px">{{$students->total()}}</span></a>
+    @include('admin.users.info')
     <table id="table" class="table table-striped table-bordered table-condensed">
       <thead>
         <tr>

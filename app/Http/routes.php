@@ -28,3 +28,7 @@ get('teachers', [
     'as'   => 'admin.teachers',
     'uses' => 'AdminController@teachers'
 ]);
+get('student', [
+    'as'   => 'admin.student',
+    'uses' => 'AdminController@students'
+]);

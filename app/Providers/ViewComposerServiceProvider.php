@@ -16,7 +16,14 @@ class ViewComposerServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 
-		view()->composer('admin.nav-side', function($view){
+		view()->composer([
+            'admin.nav-side',
+            'admin.users.all',
+            'admin.users.operator',
+            'admin.users.teachers',
+            'admin.users.student',
+            'admin.users.info'
+        ], function($view){
             $view->with([
                 'users' => User::paginate(15),
                 'operators' => User::whereRole(2)->paginate(15),

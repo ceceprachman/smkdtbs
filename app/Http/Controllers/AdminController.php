@@ -22,10 +22,6 @@ class AdminController extends Controller {
      */
     public function __construct(User $user)
     {
-        $this->users = $user->paginate();
-        $this->operators = $user->whereRole(2)->paginate();
-        $this->teachers = $user->whereRole(4)->paginate();
-        $this->students = $user->whereRole(5)->paginate();
         $this->user = $user;
         $this->middleware('auth');
     }
@@ -48,24 +44,18 @@ class AdminController extends Controller {
      */
     public function all()
     {
-        return view('admin.users.all')->with([
-            'users'     => $this->users,
-            'operators' => $this->operators,
-            'teachers'  => $this->teachers,
-            'students'  => $this->students
-        ]);
+        return view('admin.users.all');
     }
 
     public function operators()
     {
-        return view('admin.users.operator')->with('operators', $this->operators);
+        return view('admin.users.operator');
     }
 
     public function teachers()
     {
-        return view('admin.users.teachers')->with('teachers', $this->teachers);
+        return view('admin.users.teachers');
     }
-
 
     /**
      * @return view  to student collection
@@ -73,7 +63,7 @@ class AdminController extends Controller {
      */
     public function students()
     {
-        return view('')->with('students', $this->students);
+        return view('admin.users.student');
     }
 
     /**
