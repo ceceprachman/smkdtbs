@@ -4,11 +4,11 @@
 	<div class="absolute-wrapper"> </div>
 	<!-- Menu -->
 	<div class="side-menu">
-		<nav class="navbar navbar-default" role="navigation">
+		{{--<nav class="navbar navbar-default" role="navigation">--}}
 			<!-- Main Menu -->
 			<div class="side-menu-container">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="{{route('admin.index')}}"><span class="fa fa-tachometer"></span> Dashboard</a></li>
+					<li class=""><a href="{{route('admin.index')}}"><span class="fa fa-tachometer"></span> Dashboard</a></li>
 					<!-- Dropdown-->
 					<li class="panel panel-default" id="dropdown">
 						<a data-toggle="collapse" href="#dropdown-lvl1">
@@ -47,7 +47,7 @@
                     <li><a href="{{url('auth/logout')}}"><span class="glyphicon glyphicon-off"></span> Logout</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
-		</nav>
+		{{--</nav>--}}
 	</div>
   </div>
 </div>

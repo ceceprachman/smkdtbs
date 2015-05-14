@@ -18,17 +18,17 @@ class ViewComposerServiceProvider extends ServiceProvider {
 
 		view()->composer([
             'admin.nav-side',
-            'admin.users.all',
-            'admin.users.operator',
-            'admin.users.teachers',
-            'admin.users.student',
+//            'admin.users.all',
+//            'admin.users.operator',
+//            'admin.users.teachers',
+//            'admin.users.student',
             'admin.users.info'
         ], function($view){
             $view->with([
-                'users' => User::paginate(15),
-                'operators' => User::whereRole(2)->paginate(15),
-                'teachers' => User::whereRole(4)->paginate(15),
-                'students' => User::whereRole(5)->paginate(15)
+                'users' => User::paginate(),
+                'operators' => User::whereRole(2)->paginate(),
+                'teachers' => User::whereRole(4)->paginate(),
+                'students' => User::whereRole(5)->paginate()
             ]);
         });
 	}

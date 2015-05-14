@@ -2,6 +2,7 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\EditUserRequest;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Requests\CreateUserRequest;
@@ -34,7 +35,9 @@ class AdminController extends Controller {
 
     public function index()
     {
-        return view('admin.index');
+        $user = User::first();
+
+        return view('admin.index', compact('user', $user));
     }
 
     /**
@@ -44,17 +47,20 @@ class AdminController extends Controller {
      */
     public function all()
     {
-        return view('admin.users.all');
+        $users = User::paginate();
+        return view('admin.users.all', compact('users'));
     }
 
     public function operators()
     {
-        return view('admin.users.operator');
+        $users = User::whereRole(2)->paginate();
+        return view('admin.users.operator', compact('users'));
     }
 
     public function teachers()
     {
-        return view('admin.users.teachers');
+        $users = User::whereRole(4)->paginate();
+        return view('admin.users.teachers', compact('users'));
     }
 
     /**
@@ -63,7 +69,8 @@ class AdminController extends Controller {
      */
     public function students()
     {
-        return view('admin.users.student');
+        $users = User::whereRole(5)->paginate();
+        return view('admin.users.student', compact('users'));
     }
 
     /**
@@ -130,14 +137,15 @@ class AdminController extends Controller {
      *
      * @return Response
      */
-    public function update($username, Request $request)
+    public function update($username, EditUserRequest $request)
     {
         $user = $this->user->find($username);
 
         $user->fill([
             'username' => $request->get('username'),
             'name'     => $request->get('name'),
-            'email'    => $request->get('email')
+            'email'    => $request->get('email'),
+            'role'     => $request->get('role')
         ])->save();
         flash()->info('Successfully Updated ' . $user->name . ' !!');
 
