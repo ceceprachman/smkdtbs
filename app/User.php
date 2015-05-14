@@ -36,6 +36,8 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      * @var string
      */
     protected $primaryKey = 'username';
+    
+    public $incrementing = false;
 
     public function profiles()
     {
